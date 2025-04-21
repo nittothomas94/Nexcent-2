@@ -6,10 +6,10 @@ import { green } from '@mui/material/colors';
 
 const HeroSection = () => {
   return (
-    <section className="bg-gray-50 py-16 px-4 md:px-20 flex flex-col md:flex-row items-center justify-between gap-10">
+    <section className="bg-gray-50 py-16 px-4 flex flex-col md:flex-row items-center justify-between gap-10  md:gap-[104px] md:py-[96px] md:px-[144px]">
       {/* Text Side */}
-      <div className="max-w-xl">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
+      <div className="w-full md:w-[685px]">
+        <h1 className="text-4xl md:text-6xl w-full md:tracking-[5px] font-bold text-gray-600 leading-tight">
           Lessons and insights <br />
           <span className="text-green-600">from 8 years</span>
         </h1>
@@ -22,7 +22,7 @@ const HeroSection = () => {
             marginTop: '24px',
             backgroundColor: green[500],
             textTransform: 'none',
-            borderRadius: '8px',
+            borderRadius: '4px',
             padding: '10px 24px',
           }}
         >
@@ -35,7 +35,7 @@ const HeroSection = () => {
         <img
           src="/images/busnessManStanding.png"
           alt="Hero Illustration"
-          className="w-full max-w-md"
+          className="w-full max-w-md md:w-[391px] md:h-[407px] md:object-contain"
         />
       </div>
     </section>

@@ -1,16 +1,16 @@
 import UnlockSection from './UnlockSection';
 import Achievements from './Achievements';
 import CalendarSection from './CalendarSection';
-import ClientsSection from './ClientsSection';
+import CustomersSection from './CustomersSection';
 import CommunityUpdatesSection from './CommunityUpdatesSection';
 
 const BodySection = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white flex flex-col gap-[48px]">
       <UnlockSection />
       <Achievements />
       <CalendarSection />
-      <ClientsSection />
+      <CustomersSection />
       <CommunityUpdatesSection />
     </section>
   );

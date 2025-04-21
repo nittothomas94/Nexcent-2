@@ -1,10 +1,10 @@
 const UnlockSection = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-24 py-12">
+    <div className="flex flex-col md:flex-row items-center md:gap-30 px-4 md:px-[144px]">
       <img
         src="/images/login.jpg"
         alt="Unlock"
-        className="w-[300px] md:w-[400px]"
+        className="w-[300px] md:w-[400px] md:h-[433px]"
       />
       <div className="max-w-xl text-center md:text-left">
         <h2 className="text-xl md:text-2xl font-semibold text-gray-800 mb-4">

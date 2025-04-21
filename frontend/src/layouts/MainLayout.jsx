@@ -15,7 +15,7 @@ const MainLayout = () => {
       <Navbar />
 
       {/* Home Sction */}
-      <div className="home">
+      <div className="flex flex-col gap-[40px]">
         <HeroSection />
         <ClientsSection />
         <CommunitySection />

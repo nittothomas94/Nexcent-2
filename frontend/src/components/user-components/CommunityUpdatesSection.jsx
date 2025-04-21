@@ -1,12 +1,21 @@
 const CommunityUpdatesSection = () => {
   return (
-    <div className="bg-gray-50 px-4 md:px-16 py-12">
-      <h2 className="text-2xl md:text-3xl font-semibold text-center mb-12">
-        Caring is the new marketing
-      </h2>
+    <div className="px-4 md:px-16 py-12 flex flex-col gap-[16px] items-center justify-center">
+      <div className="w-full flex flex-col items-center justify-center gap-[8px] md:w-[1110px] md:h:[124px]">
+        <h2 className="text-2xl md:text-3xl font-semibold text-center">
+          Caring is the new marketing
+        </h2>
+        <p className="text-gray-400 w-[628px] text-center">
+          The Nexcent blog is the best place to read about the latest membership
+          insights, trends and more. See who's joining the community, read about
+          how our community are increasing their membership income and lot's
+          more.
+        </p>
+      </div>
+
       <div className="grid md:grid-cols-3 gap-6">
         {/* Card 1 */}
-        <div className="bg-white shadow-md p-6 rounded-lg">
+        <div className="bg-white shadow-md p-6 md:size-[368px] rounded-lg">
           <img
             src="/images/lap-using-by-girl.png"
             alt="Post 1"
@@ -21,7 +30,7 @@ const CommunityUpdatesSection = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white shadow-md p-6 rounded-lg">
+        <div className="bg-white shadow-md p-6 rounded-lg md:size-[368px]">
           <img
             src="/images/lapOnTable.png"
             alt="Post 2"
@@ -37,7 +46,7 @@ const CommunityUpdatesSection = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="bg-white shadow-md p-6 rounded-lg">
+        <div className="bg-white shadow-md p-6 rounded-lg md:size-[368px]">
           <img
             src="/images/learingLap.png"
             alt="Post 3"

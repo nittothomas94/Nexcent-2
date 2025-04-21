@@ -3,10 +3,10 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 const FooterSection = () => {
   return (
-    <section className="bg-[#263238] text-white py-12 px-6">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10">
+    <section className="bg-[#263238] text-white md:h-[328px]">
+      <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-[125px] md:py-[64px] md:px-[165px]">
         {/* Left Side */}
-        <div className="w-full md:w-1/4">
+        <div className="w-full md:w-2/5 flex flex-col gap-[30px]">
           <div className="mb-4 flex items-center gap-2">
             <img
               src="/icons/nexcent.png"

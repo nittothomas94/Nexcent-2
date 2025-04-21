@@ -6,7 +6,7 @@ import { green } from '@mui/material/colors';
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-50 shadow-sm px-6 py-4 flex items-center justify-between">
+    <nav className="bg-gray-50 shadow-sm px-15 py-5 flex items-center justify-between">
       {/* Logo */}
       <div className="flex items-center gap-2">
         <img src="/icons/nexcent.png" alt="Nexcent Logo" className="h-6" />
@@ -43,7 +43,7 @@ const Navbar = () => {
         <Button
           variant="contained"
           style={{
-            backgroundColor: green[500],
+            backgroundColor: 'green',
             textTransform: 'none',
             borderRadius: '8px',
           }}

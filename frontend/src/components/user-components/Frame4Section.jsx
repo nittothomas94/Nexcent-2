@@ -23,22 +23,18 @@ const cards = [
 
 const Frame4Section = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 pb-16">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="max-w-6xl mx-auto px-4 pb-16 flex items-center justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
         {cards.map((card, index) => (
           <div
             key={index}
-            className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm text-center hover:shadow-md transition"
+            className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm text-center w-70 hover:shadow-md transition hover:bg-green-500  hover:text-white cursor-pointer"
           >
             <div className="bg-[#ebf3ed] w-12 h-12 flex items-center justify-center rounded-md mx-auto mb-5">
               {card.icon}
             </div>
-            <h3 className="text-lg font-semibold text-[#2d2d2d] mb-2">
-              {card.title}
-            </h3>
-            <p className="text-sm text-[#6b6b6b] leading-relaxed">
-              {card.description}
-            </p>
+            <h3 className="text-lg font-semibold mb-2 ">{card.title}</h3>
+            <p className="text-sm leading-relaxed">{card.description}</p>
           </div>
         ))}
       </div>

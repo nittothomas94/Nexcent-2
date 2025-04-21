@@ -1,15 +1,15 @@
 const CalendarSection = () => {
   return (
-    <div className="w-full bg-white py-12 px-4 md:px-16 flex flex-col md:flex-row items-center justify-between gap-8">
+    <div className="w-full bg-white px-4 md:px-48 flex flex-col md:flex-row items-center gap-10">
       {/* Left image */}
       <img
         src="/images/pana.png"
         alt="Calendar Illustration"
-        className="w-full max-w-md"
+        className="w-[421.53px] max-w-md md:h-[433px]"
       />
 
       {/* Right content */}
-      <div className="max-w-xl">
+      <div className="max-w-xl md:w-[661px] ">
         <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
           How to design your site footer like we did
         </h2>
